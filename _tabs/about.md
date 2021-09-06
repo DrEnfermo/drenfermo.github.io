@@ -9,7 +9,8 @@ Blog dedicated to my own notes about penetration testing, bug bounties, ethical 
 
 __~ Dr. Enfermo__
 
-{{< blockquote "Try to learn something about everything and everything about something." "Thomas Huxley" >}}
+> "Try to learn something about everything and everything about something." 
+>> -- <cite>Thomas Huxley</cite>
 
 
 ## Contact Me
