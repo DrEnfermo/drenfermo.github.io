@@ -5,4 +5,13 @@ order: 4
 ---
 
 
-> **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page.
+Blog dedicated to my own notes about penetration testing, bug bounties, ethical hacking, cybersecurity awareness, programming, walkthroughs  and other stuff. Maybe philoshopy, comics, drawing, hiking, movies... Who knows? Human beings have polyhedral minds... ¯\\_(ツ)_/¯
+
+__~ Dr. Enfermo__
+
+{{< blockquote "Try to learn something about everything and everything about something." "Thomas Huxley" >}}
+
+
+## Contact Me
+
+To get in touch, connect on social media.
