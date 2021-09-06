@@ -6,7 +6,7 @@ categories: [Blogging]
 tags: [blog, knowledge, intro]
 ---
 ![](https://drenfermo.github.io/assets/img/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg)
-*Photo courtesy by https://unsplash.com/@ikukevk *
+*Photo courtesy by Kevin Ku on Unsplash [^1]*
 
 Here we go. 
 
@@ -18,6 +18,7 @@ As a newbie in this field, I think I still can contribute and transmit one messa
 
 So... Let's have fun!
 
+[^1]: https://unsplash.com/@ikukevk
 
 
 
