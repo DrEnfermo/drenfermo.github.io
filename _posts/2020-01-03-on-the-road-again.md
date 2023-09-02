@@ -3,7 +3,7 @@ title: On the Road... again
 author: R. Trigo aka. Dr. Enfermo
 date: 2020-01-03 18:40:00 -00Z
 categories: [Blogging]
-tags: [blog, knowledge, intro]
+tags: [blog, knowledge, intro, English]
 ---
 ![](https://drenfermo.github.io/assets/img/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg)
 *Photo courtesy by Kevin Ku on Unsplash [^1]*
