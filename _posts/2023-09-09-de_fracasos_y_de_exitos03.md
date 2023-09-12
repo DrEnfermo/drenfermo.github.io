@@ -8,7 +8,7 @@ tags: [blog, knowledge, certificaciones, OSCP, superación, aprendizaje, fallos,
 
 ## El último OSCP. Al fin. A la tercera fue la vencida (como en mi carnet de conducir).
 
-<p><img src="https://drenfermo.github.io/assets/img/75a558b8-a7f5-4d4b-80d5-728620e54063.png" style="display: block; margin-left: 25%;width: 20%;" alt="OSCP badge RTD"/>
+<p><img src="https://drenfermo.github.io/assets/img/75a558b8-a7f5-4d4b-80d5-728620e54063.png" style="display: block; margin-left: 5%;width: 20%;" alt="OSCP badge RTD"/>
 </p>
 
 Para los que habéis leído mis anteriores posts, y os puse en antecedentes de mis pequeños y grandes "fracasos", llegamos aquí a la chicha del examen que (esta vez) sí aprobé.
