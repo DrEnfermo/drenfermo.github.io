@@ -1,7 +1,7 @@
 ---
 title: Reboot... ¡en Español!
 author: R. Trigo aka. Dr. Enfermo
-date: 2020-09-01 18:40:00 -00Z
+date: 2023-09-01 18:40:00 -00Z
 categories: [Blogging]
 tags: [blog, knowledge, changes, cambios, tributo, angelucho, x1redmassegura, Spanish]
 ---
