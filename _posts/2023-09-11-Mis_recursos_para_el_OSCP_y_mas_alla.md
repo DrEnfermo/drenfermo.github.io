@@ -81,31 +81,32 @@ Para el OSCP específicamente, yo me centraría primero en:
 
 En cuanto a "Grandes Apartados", para **Directorio Activo** recomendaría los siguientes recursos (de menos a más). Con ellos creo que  iríais sobradamente preparados y no solo para el OSCP. Creo que con los dos cuatro primeros puntos, ya cubrirías lo que te pueda caer en el OSCP, de hecho. Sobre todo, y aunque te pueda parecer una chorrada, fíjate bien qué usuarios se han conectado a esa máquina, en el pasado, porque te puede dar pistas, una vez consigas vulnerarla. ¡Por ejemplo si en esa máquina se ha conectado un Administrador del Dominio o uno que te pudiese conducir a la toma del DC!. Y entonces empieza a repetir metodología para escalada y movimiento lateral. Luego practica mucho con mimikatz.exe, para dumpear hashes de memoria, así como crackmapexec e impacket, ya en tu máquina, con conceptos como ataques de asreproast o Kerberoasting. Testea además las contraseñas obtenidas con diferentes usuarios del AD, incluso a nivel de usuario local de la máquina, en las máquinas que componen el Dominio. Si además, te sientes cómodo usando PowerShell para enumerar mejor con PowerView o con el propio Active Directory PowerShell Module, y herramientas de SysInternals como PsExec, etc., creo que esta parte la tendrás ya bajo control. En cuanto a los recursos que recomendaría (sentíos libres de completar con lo que queráis):
 
-1. Esta serie de artículos de Tarlogic: https://www.tarlogic.com/es/blog/como-funciona-kerberos/ explican muy bien el funcionamiento de Kerberos.
-2. Esta serIe de vídeos y presentaciones sobre Kerberos y movimientos laterales del gran **Daniel López Jiménez, aka attl4s**, que no tienen desperdicio: https://attl4s.github.io/
+1. Esta serie de **[artículos de Tarlogic](https://www.tarlogic.com/es/blog/como-funciona-kerberos/)** explican muy bien el funcionamiento de Kerberos.
+
+2. Esta **[serie de vídeos y presentaciones sobre Kerberos y movimientos laterales del gran **Daniel López Jiménez, aka attl4s**](https://attl4s.github.io/)**, que no tienen desperdicio.
+
 3. Esta serie de artículos del gran Daniel **Echeverri Montoya, aka Adastra** en TheHackerWay:
-	- https://thehackerway.com/2021/10/07/pentesting-en-active-directory-parte-1-conceptos-basicos/
+	- **[Pentesting en ACtive Directory](https://thehackerway.com/2021/10/07/pentesting-en-active-directory-parte-1-conceptos-basicos/)**
 
-	- https://thehackerway.com/2022/10/05/aprende-a-enumerar-dominios-de-active-directory-con-crackmapexec/
+	- **[Enumeración con Crackmapexec](https://thehackerway.com/2022/10/05/aprende-a-enumerar-dominios-de-active-directory-con-crackmapexec/)**
 
-	- https://thehackerway.com/2023/01/18/10-herramientas-imprescindibles-para-pentesting-en-active-directory/
+	- **[Herramientas de pentesting en AD](https://thehackerway.com/2023/01/18/10-herramientas-imprescindibles-para-pentesting-en-active-directory/)**
 
-	- https://thehackerway.com/2021/12/02/post-explotacion-en-sistemas-windows-con-winpeas/
+	- **[Herramientas de pentesting an AD - Parte 2](https://thehackerway.com/2023/01/25/10-herramientas-esenciales-para-pentesting-en-active-directory-parte-2-de-2/)**
 
-	- https://thehackerway.com/2023/01/25/10-herramientas-esenciales-para-pentesting-en-active-directory-parte-2-de-2/
-
+	- **[Post-explotación en Sistemas Windows con WinPEAS](https://thehackerway.com/2021/12/02/post-explotacion-en-sistemas-windows-con-winpeas/)**	
 
 4.	Toda la parte de Active Directory de este curso (aunque yo me lo haría enterito):
 
-	- **["Practical Ethical Hacking - complete Course", de TCM Security](https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course)
+	- **["Practical Ethical Hacking - complete Course", de TCM Security](https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course)**
 
 
 5. Este curso gratuito de Seguridad SI impartido por el gran *Joaquín Molina, aka "Kinomakino"* (que os proporcionará lo necesario para el uso de mimikatz en el OSCP):
-	-	[Curso "Acceso a Contraseñas del Sistema y Mitigación mediante modelo Tiers Administrativos"](https://formacion.seguridadsi.com/courses/tiers)
+	-	**[Curso "Acceso a Contraseñas del Sistema y Mitigación mediante modelo Tiers Administrativos"](https://formacion.seguridadsi.com/courses/tiers)**
 		
 6. **Active Directory Methodology de Hacktricks** (quizás es excesivo, pero lo que no aparezca ahí, no creo que te caiga en Active Directory del OSCP, ni de casualidad):
 
-	- https://book.hacktricks.xyz/windows-hardening/active-directory-methodology
+	- **[Hacktricks - Active Directory Methodology](https://book.hacktricks.xyz/windows-hardening/active-directory-methodology)**
 
  7. Igualmente de excesivo, pero también impagable, resulta la también famosa página de PayLoadAllTheThings y su apartado específico de Directorio Activo (**[Active Directory Attacks - Payloads All The Things (swisskyrepo.github.io)](https://swisskyrepo.github.io/PayloadsAllTheThingsWeb/Methodology%20and%20Resources/Active%20Directory%20Attack/#summary)**) 
 
@@ -168,19 +169,20 @@ Si dominas la serie de **["Pivoting desde Cero", de S4vitar](https://www.youtube
 Para escalada de privilegios, en Linux y Windows recomiendo:
 	
  1. Los archiconocidos cursos de TCM Security:
- 	- https://academy.tcm-sec.com/p/linux-privilege-escalation
-	- https://academy.tcm-sec.com/p/windows-privilege-escalation-for-beginners
+ 	- **[TCM Security - Linux Privilege Escalation](https://academy.tcm-sec.com/p/linux-privilege-escalation)**
+	- **[TCM Security - Windows Privilege Escalation](https://academy.tcm-sec.com/p/windows-privilege-escalation-for-beginners)**
 
 2. Los de Tiberius, disponibles en UDEMY:
-	- https://www.udemy.com/course/linux-privilege-escalation/
-	- https://www.udemy.com/course/windows-privilege-escalation/
+	- **[Tiberius Linux Privilege Escalation](https://www.udemy.com/course/linux-privilege-escalation/)**
+
+	- **[Tiberius Windows Privilege Escalation](https://www.udemy.com/course/windows-privilege-escalation/)**
 
 3. Los contenidos que ofrece **TryHackme** en el módulo:
-	- https://tryhackme.com/module/privilege-escalation
+	- **[TryHackme - Privilege Escalation](https://tryhackme.com/module/privilege-escalation)**
 
 4. Lo que tiene **Hacktricks** correspondiente a Escalada de Privilegios:
-	- https://book.hacktricks.xyz/linux-hardening/privilege-escalation
-	- https://book.hacktricks.xyz/windows-hardening/checklist-windows-privilege-escalation
+	- **[HackTricks: Linux Privilege Escalation](https://book.hacktricks.xyz/linux-hardening/privilege-escalation)**
+	- **[HackTricks: Windows Privilege Escalation](https://book.hacktricks.xyz/windows-hardening/checklist-windows-privilege-escalation)**
 
 	En este sentido, considero que **Hacktricks** debería ser la Biblia de cabecera de todo el que quiera destacar en Pentesting hoy en día y no solo en cuanto escalada de privilegios, sino en todos los tipos de pentesting y fases del mismo, tanto en cloud, como web, sistemas, Directorio Activo, infraestructuras, etc. **Carlos Polop** es otro monstruo a seguir de cerca (Si no te suenan su proyecto **[PEASS-ng](https://github.com/carlospolop/PEASS-ng/tree/master)** y **[Hacktricks](https://book.hacktricks.xyz/welcome/readme)** ya estás tardando). El contenido es tan vasto, que tardaríamos años en dominarlo todo, pero es una muy buena guía de referencia a tener en cuenta.
 
