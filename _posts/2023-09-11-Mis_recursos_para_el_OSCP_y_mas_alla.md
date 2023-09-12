@@ -83,31 +83,38 @@ En cuanto a "Grandes Apartados", para **Directorio Activo** recomendaría los si
 1. Esta serie de artículos de Tarlogic: https://www.tarlogic.com/es/blog/como-funciona-kerberos/ explican muy bien el funcionamiento de Kerberos.
 2. Esta serIe de vídeos y presentaciones sobre Kerberos y movimientos laterales del gran **Daniel López Jiménez, aka attl4s**, que no tienen desperdicio: https://attl4s.github.io/
 3. Esta serie de artículos del gran Daniel **Echeverri Montoya, aka Adastra** en TheHackerWay:
-	https://thehackerway.com/2021/10/07/pentesting-en-active-directory-parte-1-conceptos-basicos/
-	https://thehackerway.com/2022/10/05/aprende-a-enumerar-dominios-de-active-directory-con-crackmapexec/
-	https://thehackerway.com/2023/01/18/10-herramientas-imprescindibles-para-pentesting-en-active-directory/
-	https://thehackerway.com/2023/01/25/10-herramientas-esenciales-para-pentesting-en-active-directory-parte-2-de-2/
+	- https://thehackerway.com/2021/10/07/pentesting-en-active-directory-parte-1-conceptos-basicos/
+
+	- https://thehackerway.com/2022/10/05/aprende-a-enumerar-dominios-de-active-directory-con-crackmapexec/
+
+	- https://thehackerway.com/2023/01/18/10-herramientas-imprescindibles-para-pentesting-en-active-directory/
+
+	- https://thehackerway.com/2023/01/25/10-herramientas-esenciales-para-pentesting-en-active-directory-parte-2-de-2/
+
 
 4.	Toda la parte de Active Directory de este curso (aunque yo me lo haría enterito):
-	https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course
+
+	- https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course
+
 
 5. Este curso gratuito de Seguridad SI y *Joaquín Molina, aka "Kinomakino"* (que os proporcionará lo necesario para el uso de mimikatz en el OSCP):
-	[Curso "Acceso a Contraseñas del Sistema y Mitigación mediante modelo Tiers Administrativos"](https://formacion.seguridadsi.com/courses/tiers)
+	-	[Curso "Acceso a Contraseñas del Sistema y Mitigación mediante modelo Tiers Administrativos"](https://formacion.seguridadsi.com/courses/tiers)
 		
 6. **Active Directory Methodology de Hacktricks** (quizás es excesivo, pero lo que no aparezca ahí, no creo que te caiga en Active Directory del OSCP, ni de casualidad):
-	https://book.hacktricks.xyz/windows-hardening/active-directory-methodology
 
- 7. Igualmente de excesivo, pero también impagable, resulta la también famosa página de PayLoadAllTheThings y su apartado específico de Directorio Activo ([Active Directory Attacks - Payloads All The Things (swisskyrepo.github.io)](https://swisskyrepo.github.io/PayloadsAllTheThingsWeb/Methodology%20and%20Resources/Active%20Directory%20Attack/#summary)) 
+	- https://book.hacktricks.xyz/windows-hardening/active-directory-methodology
+
+ 7. Igualmente de excesivo, pero también impagable, resulta la también famosa página de PayLoadAllTheThings y su apartado específico de Directorio Activo (**[Active Directory Attacks - Payloads All The Things (swisskyrepo.github.io)](https://swisskyrepo.github.io/PayloadsAllTheThingsWeb/Methodology%20and%20Resources/Active%20Directory%20Attack/#summary)**) 
 
  8. La preparación para el **[CRTP (Certified Read Team Professional) de Pentester Academy (ahora Altered Security)](https://www.alteredsecurity.com/post/certified-red-team-professional-crtp)**, y el manejo de PowerView y otras tools eminentemente en PowerShell se sale un poco también de lo que es el OSCP pero tiene un efoque ofensivo-defensivo que también me gusta mucho y te ayuda a entender la explotación de Directorio Activo desde la propia máquina Windows, PS-Remote Sessions, etc. No necesario, pero sí muy interesante. Eso sí, acordaos de que herramientas como PowerUp están prohibidas en el OSCP, al menos en su faceta de "explotación automatizada".
 	 
  9. Para practicar, si no te montas tu propio lab de practicas con máquinas virtuales (hay miles de recursos gratis en internet donde te lo explican), tienes esta maravilla:
 
-	https://mayfly277.github.io/posts/GOADv2/
+	- https://mayfly277.github.io/posts/GOADv2/
 
 **Orange** tiene para mi y a día de hoy, el "mindmap" más completo y actualizado para hacerte la idea de ataques a Directorio Activo. Excede con mucho, lo que te van a pedir en el OSCP, pero si lo dominas (solo profundizar en detalle sobre ello llevaría meses), no tendrás que preocuparte de nada en este apartado:
 
-https://orange-cyberdefense.github.io/ocd-mindmaps/img/pentest_ad_dark_2023_02.svg
+- https://orange-cyberdefense.github.io/ocd-mindmaps/img/pentest_ad_dark_2023_02.svg
 
 
 
@@ -115,9 +122,9 @@ https://orange-cyberdefense.github.io/ocd-mindmaps/img/pentest_ad_dark_2023_02.s
 
 En cuanto a la parte de Pentesting Web, recomendaría esto, aunque aviso que, como con el apartado anterior, sobre todo los recursos del final,  pueden ser incluso excesivos para el OSCP:
 
-1. [Esta serie de artículos de TheHackerWay para abrir boca](https://thehackerway.com/2022/11/30/10-herramientas-esenciales-para-pentesting-web-parte-1-de-2/)
+1. **[Esta serie de artículos de TheHackerWay para abrir boca](https://thehackerway.com/2022/11/30/10-herramientas-esenciales-para-pentesting-web-parte-1-de-2/)**
 
-2. El curso de [Introducción a Hacking] (https://hack4u.io/cursos/introduccion-al-hacking/) de **Marcelo Vázquez, aka S4vitar** (Sí, como lo oyes : *"El Enfant Terrible"*, jejeje). No lo hago por entrar en ninguna polémica, pero lo cierto es que, al margen de críticas varias hacia su persona, que he oído (y leído) en eñ sector durante los últimos tiempos, a mi me parece que ha explotado un nicho muy interesante. Y es muy bueno. Podrás discutir las formas, pero el fondo es impecable. Por lo menos si quieres aprender sobre scripting, en Linux o Python, realización de máquinas varias para la obtención de certificaciones, y más allá... En este sentdio de él recomiendo toda su serie en Twitch y Youtube de máquinas de preparación para el OSCP. Tienes un buscador de máquinas resueltas [aquí](https://htbmachines.github.io/) que enlaza con esos vídeos. Y su Plan de estudios para el OSCP y otras certificaciones, [aquí](https://docs.google.com/spreadsheets/d/1dzvaGlT_0xnT-PGO27Z_4prHgA8PHIpErmoWdlUrSoA/edit#gid=0). A mí me sigue pareciendo el [IPPSec](https://www.youtube.com/@ippsec) español, incluso más allá. Recientemente ha montaod su academia de Hack4you, y su cursos están muy bien, en concreto el que he mencionado arriba puedes sacar más o menos todo lo de web que te puedas encontrar en el OSCP, aunque se echa en falta la parte de Directorio Activo, que promete para una versión avanzada del mismo. Y el de [Introducción a  Linux](https://hack4u.io/cursos/introduccion-a-linux/) es muy potente también.
+2. El curso de **[Introducción a Hacking](https://hack4u.io/cursos/introduccion-al-hacking/)** de **Marcelo Vázquez, aka S4vitar** (Sí, como lo oyes : *"El Enfant Terrible"*, jejeje). No lo hago por entrar en ninguna polémica, pero lo cierto es que, al margen de críticas varias hacia su persona, que he oído (y leído) en eñ sector durante los últimos tiempos, a mi me parece que ha explotado un nicho muy interesante. Y es muy bueno. Podrás discutir las formas, pero el fondo es impecable. Por lo menos si quieres aprender sobre scripting, en Linux o Python, realización de máquinas varias para la obtención de certificaciones, y más allá... En este sentdio de él recomiendo toda su serie en Twitch y Youtube de máquinas de preparación para el OSCP. Tienes un buscador de máquinas resueltas **[aquí](https://htbmachines.github.io/)** que enlaza con esos vídeos. Y su Plan de estudios para el OSCP y otras certificaciones, **[aquí](https://docs.google.com/spreadsheets/d/1dzvaGlT_0xnT-PGO27Z_4prHgA8PHIpErmoWdlUrSoA/edit#gid=0)**. A mí me sigue pareciendo el **[IPPSec](https://www.youtube.com/@ippsec)** español, incluso más allá. Recientemente ha montaod su academia de Hack4you, y su cursos están muy bien, en concreto el que he mencionado arriba puedes sacar más o menos todo lo de web que te puedas encontrar en el OSCP, aunque se echa en falta la parte de Directorio Activo, que promete para una versión avanzada del mismo. Y el de **[Introducción a  Linux](https://hack4u.io/cursos/introduccion-a-linux/)** es muy potente también.
 
 3. El **[OWASP Top 10](https://owasp.org/Top10/es)** y las **[OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)**: Un recurso gratuito pero muy potente.
 
@@ -144,11 +151,11 @@ En esta sección, con lo que te den en el OSCP está bien, pero yo me cuidaría 
 Aún asi, añadiría estos otros recursos interesantes:
 - Los siguientes artículos:
 
-	https://deephacking.tech/pivoting-con-chisel/
+	- https://deephacking.tech/pivoting-con-chisel/
 	
-	https://posts.slayerlabs.com/tunneling-quick-guide/
+	- https://posts.slayerlabs.com/tunneling-quick-guide/
 
-	https://academy.tcm-sec.com/p/movement-pivoting-and-persistence-for-pentesters-and-ethical-hackers
+	- https://academy.tcm-sec.com/p/movement-pivoting-and-persistence-for-pentesters-and-ethical-hackers
 
 Si dominas la serie de **["Pivoting desde Cero", de S4vitar](https://www.youtube.com/watch?v=L1jSoCcvRY4)**, para preparación del eCPPT,  o te has sacado ya esa certificación, ya dominas probablemente lo que te puedas encontrar en el OSCP.
 
@@ -158,21 +165,21 @@ Si dominas la serie de **["Pivoting desde Cero", de S4vitar](https://www.youtube
 Para escalada de privilegios, en Linux y Windows recomiendo:
 	
  1. Los archiconocidos cursos de TCM Security:
-	https://academy.tcm-sec.com/p/linux-privilege-escalation
-	https://academy.tcm-sec.com/p/windows-privilege-escalation-for-beginners
+ 	- https://academy.tcm-sec.com/p/linux-privilege-escalation
+	- https://academy.tcm-sec.com/p/windows-privilege-escalation-for-beginners
 
 2. Los de Tiberius, disponibles en UDEMY:
-	https://www.udemy.com/course/linux-privilege-escalation/
-	https://www.udemy.com/course/windows-privilege-escalation/
+	- https://www.udemy.com/course/linux-privilege-escalation/
+	- https://www.udemy.com/course/windows-privilege-escalation/
 
 3. Los contenidos que ofrece **TryHackme** en el módulo:
-	https://tryhackme.com/module/privilege-escalation
+	- https://tryhackme.com/module/privilege-escalation
 
 4. Lo que tiene **Hacktricks** correspondiente a Escalada de Privilegios:
-	https://book.hacktricks.xyz/linux-hardening/privilege-escalation
-	https://book.hacktricks.xyz/windows-hardening/checklist-windows-privilege-escalation
+	- https://book.hacktricks.xyz/linux-hardening/privilege-escalation
+	- https://book.hacktricks.xyz/windows-hardening/checklist-windows-privilege-escalation
 
-	En este sentido, considero que **Hacktricks** debería ser la Biblia de cabecera de todo el que quiera destacar en Pentesting hoy en día y no solo en cuanto escalada de privilegios, sino en todos los tipos de pentesting y fases del mismo, tanto en cloud, como web, sistemas, Directorio Activo, infraestructuras, etc. **Carlos Polop** es otro monstruo a seguir de cerca (Si no te suenan su proyecto **[PEASS-ng](https://github.com/carlospolop/PEASS-ng/tree/master)** y **[Hacktricks](https://book.hacktricks.xyz/welcome/readme) ya estás tardando). El contenido es tan vasto, que tardaríamos años en dominarlo todo, pero es una muy buena guía de referencia a tener en cuenta.
+	En este sentido, considero que **Hacktricks** debería ser la Biblia de cabecera de todo el que quiera destacar en Pentesting hoy en día y no solo en cuanto escalada de privilegios, sino en todos los tipos de pentesting y fases del mismo, tanto en cloud, como web, sistemas, Directorio Activo, infraestructuras, etc. **Carlos Polop** es otro monstruo a seguir de cerca (Si no te suenan su proyecto **[PEASS-ng](https://github.com/carlospolop/PEASS-ng/tree/master)** y **[Hacktricks](https://book.hacktricks.xyz/welcome/readme)** ya estás tardando). El contenido es tan vasto, que tardaríamos años en dominarlo todo, pero es una muy buena guía de referencia a tener en cuenta.
 
 5. Como colofón, las herramientas fundamentales en escalada de privilegios, relativas a la parte de explotación de binarios, serían básicamente estas dos:
 
