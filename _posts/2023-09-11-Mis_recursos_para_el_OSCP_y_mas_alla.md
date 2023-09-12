@@ -31,7 +31,7 @@ Entre las disciplinas que recomendaría como "Pre-requisitos",  lo primero es, e
 - **Empleo de Contenedores**: **Docker**. Por lo mismo. Para probar PoCs, programas, tools, etc. bajándote imagénes de contenedore ya existentes, o creando las tuyas propias, iniciando instancias, probando, parando, y vuelta a empezar.
 - **Empleo de Sistemas de control de versiones de código**: Git.  Luego ya, si te gusta más GitLab que GitHub, a tu criterio.
 - **Empleo de IDEs para desarrollo**, editores con esteroides o como quieras llamarlos (**VSCode, Notepad++, vim, nvim, ...**)
-- **Empleo de algún lenguaje de programación**, por lo menos, sencillo. No voy a entrar en una batalla sobre cual es mejor. Paso de polémicas. Si te sobra el tiempo, C (aunque da miedo), tiene una curva de aprendizaje alta, pero si dominas C (ojo, yo no lo domino ni mucho menos), cualquier lenguaje será coser y cantar. Si no, para scripting y pentesting, con Python te valdría, en un principio.  A mí personalmente también me gusta mucho C#, pero allá cada cual. Rust, Go, Ruby. Tienes para aburrir. Eso sí, si puedes, no hagas lo que yo. Cíñete a uno y apréndelo estrujándolo hasta el límite. Que tocar, he tocado algunos, pero ponme ahora mismo a programar en **C** o **Java** y ya verás qué risa floja me entra. Esto es como todo, cuanto más practiques y mejores notas tomes, y más te pegues con tus creaciones, por pequeñas que sean, mejor. Si nos vamos a lenguajes "web", serían con algo de **HTML5**, **CSS** y **JavaScript** tendrás cubierto el front-end, y con algo de **PHP** los lenguajes de back-end para el lado servidor (sin olvidar las bases de datos, claro). Aunque en el caso de **PHP**, ya tengo mis dudas, porque el abanico de posibilidades se está abriendo mucho más.  con el backend basado en **Python** (como **Laravel** o **Django**m o usando **Flask** para microservicios), **Ruby** (con su **Ruby On Rails**), o infinidad de otros que se unen a los que ya existían con  **Express.js y Node.js**. a los ahora ya clásicos **ASP .NET** (que cuando yo empecé era ASP clásico), y **PHP** o **Java**.  ¡Incluso con stack "serverless"! En definitiva, y sin andarme más por las ramas,por lo menos entender un poco qué es lo que hace un código determinado. Solo tienes que ver que ahora la complejidad de los stacks tecnológicos
+- **Empleo de algún lenguaje de programación**, por lo menos, sencillo. No voy a entrar en una batalla sobre cual es mejor. Paso de polémicas. Si te sobra el tiempo, C (aunque da miedo), tiene una curva de aprendizaje alta, pero si dominas C (ojo, yo no lo domino ni mucho menos), cualquier lenguaje será coser y cantar. Si no, para scripting y pentesting, con Python te valdría, en un principio.  A mí personalmente también me gusta mucho C#, pero allá cada cual. Rust, Go, Ruby. Tienes para aburrir. Eso sí, si puedes, no hagas lo que yo. Cíñete a uno y apréndelo estrujándolo hasta el límite. Que tocar, he tocado algunos, pero ponme ahora mismo a programar en **C** o **Java** y ya verás qué risa floja me entra. Esto es como todo, cuanto más practiques y mejores notas tomes, y más te pegues con tus creaciones, por pequeñas que sean, mejor. Si nos vamos a lenguajes "web", serían con algo de **HTML5**, **CSS** y **JavaScript** tendrás cubierto el front-end, y con algo de **PHP** los lenguajes de back-end para el lado servidor (sin olvidar las bases de datos, claro). Aunque en el caso de **PHP**, ya tengo mis dudas, porque el abanico de posibilidades se está abriendo mucho más.  con el backend basado en **Python** (como **Laravel** o **Django** o usando **Flask** para microservicios), **Ruby** (con su **Ruby On Rails**), o infinidad de otros que se unen a los que ya existían con  **Express.js y Node.js**. a los ahora ya clásicos **ASP .NET** (que cuando yo empecé era ASP clásico), y **PHP** o **Java**.  ¡Incluso con stack "serverless"! En definitiva, y sin andarme más por las ramas,por lo menos entender un poco qué es lo que hace un código determinado. Solo tienes que ver que ahora la complejidad de los stacks tecnológicos
 
 ### Conocimientos para el OSCP... y más allá
 Para el OSCP específicamente, yo me centraría primero en:
@@ -68,9 +68,10 @@ Para el OSCP específicamente, yo me centraría primero en:
 	 8. Para retos crypto, aunque Kali cuenta con varias tools, me gusta mucho [CyberChef](https://gchq.github.io/CyberChef/)
 	  
 		 En concreto, para descifrar hashes rápidamente en texto plano (¡de ctfs o máquinas de estas plataformas!): 
-		- https://crackstation.net/
-		- https://dehash.me/
-		- https://hashes.com/es/decrypt/hash 
+		 - **[crackstation](https://crackstation.net/)**
+	
+		- **[dehash.me](https://dehash.me/)**
+		- **[hashes.com](https://hashes.com/es/decrypt/hash )**
 
 	 9. Importante también es configurarte un entorno de ataque a tu gusto, sentirte cómodo con él, ya sea usando **tmux**, o **terminator**, un terminal con esteroides, como una **kitty con PowerLevel10K y una zsh**, o bien la versión "pelada" de la Kali,  o un Parrot (¡o una Debian con las herramientas que vayas a utilizar!)pero familiarízate con ellas y siéntete bien usándolas. 
 
@@ -89,15 +90,17 @@ En cuanto a "Grandes Apartados", para **Directorio Activo** recomendaría los si
 
 	- https://thehackerway.com/2023/01/18/10-herramientas-imprescindibles-para-pentesting-en-active-directory/
 
+	- https://thehackerway.com/2021/12/02/post-explotacion-en-sistemas-windows-con-winpeas/
+
 	- https://thehackerway.com/2023/01/25/10-herramientas-esenciales-para-pentesting-en-active-directory-parte-2-de-2/
 
 
 4.	Toda la parte de Active Directory de este curso (aunque yo me lo haría enterito):
 
-	- https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course
+	- **["Practical Ethical Hacking - complete Course", de TCM Security](https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course)
 
 
-5. Este curso gratuito de Seguridad SI y *Joaquín Molina, aka "Kinomakino"* (que os proporcionará lo necesario para el uso de mimikatz en el OSCP):
+5. Este curso gratuito de Seguridad SI impartido por el gran *Joaquín Molina, aka "Kinomakino"* (que os proporcionará lo necesario para el uso de mimikatz en el OSCP):
 	-	[Curso "Acceso a Contraseñas del Sistema y Mitigación mediante modelo Tiers Administrativos"](https://formacion.seguridadsi.com/courses/tiers)
 		
 6. **Active Directory Methodology de Hacktricks** (quizás es excesivo, pero lo que no aparezca ahí, no creo que te caiga en Active Directory del OSCP, ni de casualidad):
@@ -110,12 +113,11 @@ En cuanto a "Grandes Apartados", para **Directorio Activo** recomendaría los si
 	 
  9. Para practicar, si no te montas tu propio lab de practicas con máquinas virtuales (hay miles de recursos gratis en internet donde te lo explican), tienes esta maravilla:
 
-	- https://mayfly277.github.io/posts/GOADv2/
+	- **[GOADv2 Labs](https://mayfly277.github.io/posts/GOADv2/)**
 
 **Orange** tiene para mi y a día de hoy, el "mindmap" más completo y actualizado para hacerte la idea de ataques a Directorio Activo. Excede con mucho, lo que te van a pedir en el OSCP, pero si lo dominas (solo profundizar en detalle sobre ello llevaría meses), no tendrás que preocuparte de nada en este apartado:
 
-- https://orange-cyberdefense.github.io/ocd-mindmaps/img/pentest_ad_dark_2023_02.svg
-
+- **[Orange Ciberdefense Active Directory Complete Mindse 2023 Update](https://orange-cyberdefense.github.io/ocd-mindmaps/img/pentest_ad_dark_2023_02.svg)**
 
 
 ### Web. Enumeración. Fuzzing de directorios, parámetros, API endpoints, vulnerabilidades típicas a explotar y uso de Proxy web.
@@ -140,22 +142,23 @@ En esta sección, con lo que te den en el OSCP está bien, pero yo me cuidaría 
 
 1. Entender realmente cómo funciona un local port forwarding, un remote port forwarding, un dynamic port forwarding, y las casuísticas que te pueden llevar a escoger la realización de uno u otro. Entender cómo usarlo vía ssh, socat y luego ya con otras herramientas, más sencillas, pero después de haber pasado por ahí. Por que si no, te puedes encontrar que has logrado llegar a la máquina destino pivotando, pero por ejemplo, no te funciona bien la shell reversa hasta tu máquina desde esa máquina, o cosas de ese estilo... Aquí recomiendo leer:
 
-	- Este buen post de **Hackplayers**, antiguo pero vigente perfectamnte: https://www.hackplayers.com/2018/05/taller-de-pivoting-tuneles-ssh.html
-	- Este post de Pivoting con SSH, de **Juan Antonio González Mena, aka sikumy, de DeepHacking**:
-		https://deephacking.tech/pivoting-con-ssh/
-	- Este módulo de **HackTheBox Academy** es reciente pero tiene muy buena pinta (no lo he hecho):
-		https://academy.hackthebox.com/course/preview/pivoting-tunneling-and-port-forwarding
+	- [Este buen post de **Hackplayers**](https://www.hackplayers.com/2018/05/taller-de-pivoting-tuneles-ssh.html), antiguo pero vigente perfectamente.
+
+	- [Este post de **Pivoting con SSH**](https://deephacking.tech/pivoting-con-ssh/), de **Juan Antonio González Mena, aka sikumy, de DeepHacking**
+		
+	- [Este módulo de **HackTheBox Academy**](https://academy.hackthebox.com/course/preview/pivoting-tunneling-and-port-forwarding) es reciente pero tiene muy buena pinta (aunque he de decir que no lo he hecho)
+		
 
 2. Saber pivotar entre máquinas empleando más de una herramienta, por si acaso te falla una. En mi caso, **[chisel](https://github.com/jpillora/chisel)** me ha ayudado mucho. Pero tienes también **[ligolo-ng](https://github.com/nicocha30/ligolo-ng)**, o **[sshuttle](https://github.com/sshuttle/sshuttle)**. Hay muchas ¡Y recuerda que en Windows tienes formas "nativas" de hacer "Port forwarding"!  
 
 Aún asi, añadiría estos otros recursos interesantes:
 - Los siguientes artículos:
 
-	- https://deephacking.tech/pivoting-con-chisel/
+	- **[Pivoting con Chisel](https://deephacking.tech/pivoting-con-chisel/)**
 	
-	- https://posts.slayerlabs.com/tunneling-quick-guide/
+	- **[Tunneling: Quick Guide](https://posts.slayerlabs.com/tunneling-quick-guide/)**
 
-	- https://academy.tcm-sec.com/p/movement-pivoting-and-persistence-for-pentesters-and-ethical-hackers
+	- **[Movement, Pivoting and Persistence for pentesters and ethical hackers, de TCM Security](https://academy.tcm-sec.com/p/movement-pivoting-and-persistence-for-pentesters-and-ethical-hackers)**
 
 Si dominas la serie de **["Pivoting desde Cero", de S4vitar](https://www.youtube.com/watch?v=L1jSoCcvRY4)**, para preparación del eCPPT,  o te has sacado ya esa certificación, ya dominas probablemente lo que te puedas encontrar en el OSCP.
 
@@ -203,9 +206,9 @@ Para escalada de privilegios, en Linux y Windows recomiendo:
 	
 - Otro día hablaremos de los libros, que los ahí y muy interesantes, tanto en inglés como en español.
 - No quiero finalizar sin recomendaros que hagáis algo que yo no he hecho y también considero un error: Mejor recorrer juntos el camino, que en solitario. Si podéis empezar a formar parte de la comunidad aportando o preguntando, hacedlo. Eso sí, siempre desde la humildad y habiendo investigando un poco por vuestra cuenta porque en este sector sobre todo, no gusta nada que pidas que te le den todo hecho, y si me has leído hasta aquí, no es una carrera a corto plazo en la que vayas a ir de la manita para todo, precisamente. Destacaría iniciativas muy buenas en este preciso momento, aunque hay muchas más:
-	- **Securiters**, con la cabeza visible de Marta Barrios (@martrudix), con https://www.securiters.com/hckcmp/ (enfocado a profesionales en femenino).
-	- La comunidad general de **Securiters**, con su Canal de Telegram en: https://t.me/ComunidadSecuriters
-	- La comunidad de **"The Hacker Way"**, con la cabeza visible de Adastra: https://t.me/TheHackerWay  y su recién creada **Comunidad Web con diferentes sistemas de subscripción** en: https://comunidad.thehackerway.es/
+	- **Securiters**, con la cabeza visible de Marta Barrios (@martrudix), con  **[hckcmp](https://www.securiters.com/hckcmp/)** (enfocado a profesionales en femenino).
+	- La comunidad general de **Securiters**, con su **[Canal de Telegram](https://t.me/ComunidadSecuriters)**.
+	- La comunidad de **"[The Hacker Way](https://t.me/TheHackerWay)**, con la cabeza visible de Adastra y su recién creada **[Comunidad Web con diferentes sistemas de subscripción](https://comunidad.thehackerway.es/)** .
 
 En definitiva, cualquier comunidad en **Twich, Youtube, Telegram, o canal de Discord** donde os sintáis cómodos, con libertad para aportar y recibir ideas, y montar algún grupete para "hacer cosas, de vez en cuando". Aprenderéis un montón y os pondréis al día de forma amena. 
 	
